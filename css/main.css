@@ -48,7 +48,9 @@ h5 {
     background-color: #e52e2e;
     color: #fff; }
   .btn-large {
-    padding: 15px 40px; }
+    padding: 15px 40px;
+    border-radius: 12px;
+  }
 
 /* ==========================================================================
 	General Styles
@@ -302,7 +304,9 @@ ul li {
 	$Features
 ========================================================================== */
 .features {
-  margin-top: 5px; }
+  margin-top: 5px;
+  text-align: center;
+}
   .feature-content {
     padding: 0 15px;
     margin-top: 30px; }
@@ -326,7 +330,6 @@ ul li {
 ========================================================================== */
 .cooperation {
   margin-top: 5px;
-  border-bottom: #1c1c1c 5px solid;
 }
 .cooperation-row {
   width: auto;
@@ -335,7 +338,6 @@ ul li {
   background-color: #FDD501;
   padding-top: 30px;
   padding-bottom: 105px;
-  border-bottom: #1c1c1c 5px solid;
 }
 .cooperation-right-column{
   background-color: #fff;
@@ -403,7 +405,6 @@ ul li {
 ========================================================================== */
 .cases {
   padding-top: 20px;
-  border-top: #1c1c1c 2px solid;
 }
 .cases-title {
   text-align: center;
@@ -482,9 +483,7 @@ ul li {
     -ms-transform: translate3d(0, 0, 0);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
-#about-us {
-  border-bottom: #1c1c1c 2px solid;
-}
+
  .about-us-column-left  {
   background-image: url(../img/about-us.jpg) ;
   background-size: cover;
@@ -619,16 +618,12 @@ ul li {
 /* ==========================================================================
 	$Form
 ========================================================================== */
-.contact {
-  border-top: #1c1c1c 5px solid;
-}
+
 .form {
   background-color: #fff;
-  border-right: #1c1c1c 5px solid;
   padding-bottom: 20px;
 }
 .main-form {
-  max-width:;
   margin: 0 auto;
   text-align: center;
 }
@@ -706,9 +701,7 @@ ul li {
   display: block;
   margin-right: 50px;
 }
-.maps {
-  border-top: #1c1c1c 2px solid;
-}
+
 .map-title {
   text-align: center;
   padding-bottom: 40px;
