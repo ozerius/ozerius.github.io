@@ -100,6 +100,8 @@ ul li {
   z-index: 990; }
   #header .header-content {
     /* border-bottom: 1px solid #1c1c1c; */
+    display: flex;
+    justify-content: space-between;
     margin: 0 auto;
     max-width: 1170px;
     padding: 40px 0;
@@ -119,7 +121,13 @@ ul li {
   #header.fixed .nav-toggle {
     top: 18px; }
 
-.navigation.open {
+.phone-top-link {
+  color: #1c1c1c;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+    .navigation.open {
   opacity: 0.9;
   visibility: visible;
   -moz-transition: opacity 0.5s;
@@ -133,7 +141,7 @@ ul li {
     display: inline-block; }
   .navigation a {
     color: #1c1c1c;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 700;
     margin-left: 40px;
     text-transform: uppercase; }
