@@ -51,6 +51,7 @@ h5 {
     padding: 15px 40px;
     border-radius: 12px;
   }
+  
 
 /* ==========================================================================
 	General Styles
@@ -93,6 +94,7 @@ ul li {
 .row {
   margin: 0;
 }
+
 /* ==========================================================================
 	$Header
 ========================================================================== */
@@ -329,7 +331,7 @@ ul li {
 	$Cooperation
 ========================================================================== */
 .cooperation {
-  margin-top: 5px;
+  padding-top: 150px;
 }
 .cooperation-row {
   width: auto;
@@ -638,6 +640,7 @@ ul li {
   color: #1c1c1c;
   text-align: center;
 }
+
 .form-label{
   font-weight: 700;
   font-size: 20px;
@@ -654,18 +657,17 @@ ul li {
   display: flex;
   width: 70%;
   height: calc(4.53vw);
-  border-bottom: 1px solid #1c1c1c;
   align-items: end;
+  border-bottom: 1px solid #1c1c1c;
 }
-
-.form-label>input{
+input{
   background-color: #FFF;
   border: none;
   color: #1c1c1c;
   font-size: 15px;
   margin-left: 15px;
 }
-.form-label > input:focus {
+input:focus {
   outline: none;
 }
 
@@ -679,6 +681,9 @@ ul li {
   background-color: #FDD501;
   border: none;
   font-size: 15px;
+}
+.hidden-label {
+  display: none;
 }
 .contacts {
   background-color:#FDD501;
